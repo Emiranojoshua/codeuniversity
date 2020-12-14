@@ -1,0 +1,68 @@
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.welcome-image{
+    flex: 50%;
+}
+.welcome-image img{
+    width: 100%;
+    height: 100%;
+}
+.welcome-content{
+    flex: 50%;
+    padding-top: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+.welcome-content span{
+    color: green;
+    text-transform: uppercase;
+}
+.welcome-content h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome-content p{
+    line-height: 40px;
+    margin-bottom : 30px;
+}
+.wel-btn{
+    margin-top: 20px;
+}
+.wel-button{
+    padding: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: white;
+    background-color: green;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    border: 2px solid green;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wel-button:hover{
+    z-index: 20;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}
